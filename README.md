@@ -7,11 +7,11 @@ npm run build      # strict typecheck + production build into dist/
 npm run preview    # serve the production build locally
 ```
 
-Open the printed `http://localhost:…` address. Browsers block ES modules opened straight from `file://`, so use the commands above rather than double-clicking `index.html`.
+Requires Node.js 20 or newer. Open the printed `http://localhost:…` address. Browsers block ES modules opened straight from `file://`, so use the commands above rather than double-clicking `index.html`.
 
 ## Structure
 - `index.html` — markup: hero, Solutions, How it works, About, Let's talk (finalized artwork, original filenames)
-- `public/assets/` — the 14 distinct finalized graphics (+ `logo-mark.png`), shipped as-is
+- `public/assets/` — the 14 distinct finalized graphics per language, plus the header logo files (`logo-mark.png` icon, `devros-wordmark.png` cropped from `source-assets/devros-ai-logo.png`)
 - `source-assets/` — the 16 byte-identical duplicates from the original ZIP (not shipped)
 - `src/styles.css` — layout, header, responsive rules
 - `src/main.ts` — entry point
