@@ -13,6 +13,7 @@ interface Strings {
   'lang.group': string;
   'hotspot.talk': string;
   'hotspot.book': string;
+  'hotspot.build': string;
   'hotspot.email': string;
   'meta.title': string;
   'meta.description': string;
@@ -27,6 +28,7 @@ const STRINGS: Record<Lang, Strings> = {
     'lang.group': 'Language',
     'hotspot.talk': 'Let’s talk',
     'hotspot.book': 'Book free consultation',
+    'hotspot.build': 'Let’s build it: book a free 30-minute consultation',
     'hotspot.email': 'Email contact@devros.ai',
     'meta.title': 'DevrosAI — Made-to-measure agents. Skip complexity.',
     'meta.description':
@@ -40,6 +42,7 @@ const STRINGS: Record<Lang, Strings> = {
     'lang.group': 'Idioma',
     'hotspot.talk': 'Hablemos',
     'hotspot.book': 'Agendar consulta gratis',
+    'hotspot.build': 'Hagámoslo realidad: agenda una consulta gratuita de 30 minutos',
     'hotspot.email': 'Escribir a contact@devros.ai',
     'meta.title': 'DevrosAI — Agentes a la medida. Elimina lo complejo.',
     'meta.description':

@@ -43,6 +43,8 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 /* Clickable zones over buttons that are part of the artwork */
 .hotspot{position:absolute;display:block;border-radius:999px;cursor:pointer}
 .hotspot:focus-visible{outline:2px solid var(--ivory);outline-offset:2px}
+/* `top` is the button's vertical center, so the 44px minimum touch target grows evenly around it on small screens */
+.hotspot--touch{min-height:44px;transform:translateY(-50%)}
 
 /* Tablet */
 @media (max-width:1024px){
